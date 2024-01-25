@@ -16,3 +16,6 @@ def get_data():
     return jsonify(data)
 
 CORS(app)
+
+if __name__ == '__main__':
+    app.run(debug=True)
